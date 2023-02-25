@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/06a2b6138b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <a href="#contact"><button class="contact_btn">Contact me</button></a>
+    </nav>
+    <section id="header">
+        <div class="header_text">
+            <div class="intro">
+                <h2>My Name</h2>
+                <h2>Is Dev</h2>
+            </div>
+            <p>I am a FullStack Web Developer.<br>I always very enthusiastic and eager to learn new skills.</p>
+            <div class="btn">
+                <button id="hire_btn">Hire Me</button>
+                <button id="cv_btn">Download CV</button>
+            </div>
+            <ul class="social_link">
+                <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="image">
+            <img class="header_img" src="img/about.png">
+        </div>
+    </section>
+    <section id="about">
+        <div class="about_img">
+            <img src="img/pic2.png">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#EE6A0B" d="M43.7,-77.1C56.6,-68.3,66.9,-56.4,74.2,-43.1C81.6,-29.7,85.9,-14.9,87.4,0.8C88.9,16.5,87.4,33.1,80.5,47.2C73.6,61.3,61.2,72.9,46.9,80.4C32.5,87.9,16.3,91.3,0.2,91C-15.9,90.7,-31.9,86.7,-45.4,78.7C-58.9,70.8,-70,58.8,-77,45C-84,31.2,-87,15.6,-87.1,-0.1C-87.3,-15.8,-84.6,-31.6,-77.2,-44.7C-69.8,-57.8,-57.6,-68.2,-44,-76.5C-30.3,-84.8,-15.1,-90.9,0.1,-91.2C15.4,-91.4,30.9,-85.8,43.7,-77.1Z" transform="translate(100 100)" />
+              </svg>
+        </div>
+        <div class="about_text">
+            <h2 class="about_heading">About Me</h2>
+            <p>I'm a Full Stack Web Developer. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.Currently,I am pursing B.Tech from MIET,Meerut.
+                I am very curious person as I am always ready to learn something new and explore different fields, as a team player I respect my comrades and their work and always try to learn something from them, or help them.</p>
+            <h2 class="about_heading skill_heading">Skills</h2>
+            <div class="skills">
+                <div class="skill1">
+                    <div class="html skill">
+                        <h2>HTML</h2>
+                        <div class="bar"><div class="html span"></div></div>
+                    </div>
+                    <div class="skill">
+                        <h2>CSS</h2>
+                        <div class="bar"><div class="css span"></div></div>
+                    </div>
+                    <div class="skill">
+                        <h2>JavaScript</h2>
+                        <div class="bar"><div class="js span"></div></div>
+                    </div>
+                    <div class="skill">
+                        <h2>Bootstrap</h2>
+                        <div class="bar"><div class="bootstrap span"></div></div>
+                    </div>
+                </div>
+                <div class="skill2 ">
+                <div class="skill">
+                    <h2>SCSS</h2>
+                        <div class="bar"><div class="scss span"></div></div>
+                </div>
+                <div class="skill">
+                    <h2>MongoDB</h2>
+                        <div class="bar"><div class="mongodb span"></div></div>
+                </div>
+                <div class="skill">
+                    <h2>Node.js</h2>
+                        <div class="bar"><div class="nodejs span"></div></div>
+                </div>
+                <div class="skill">
+                    <h2>Express.js</h2>
+                        <div class="bar"><div class="express span"></div></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project_container">
+            <div class="project_card">
+                <img src="img/p1.webp">
+                <h3>01</h3>
+                <div class="hidden_text">
+                    <p>DA-Profile</p>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div class="project_card">
+                <img src="img/p2.jpg">
+                <h3>02</h3>
+                <div class="hidden_text">
+                    <p>Merimed</p>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div class="project_card">
+                <img src="img/p3.jpg">
+                <h3>03</h3>
+                <div class="hidden_text">
+                    <p>Project3</p>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form_conatiner">
+            <h3>Contact Me</h3>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button>Send</button>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+<!-- <h3>a <span id="feature-text"></span>
+     <span class="input-cursor"></span></h3> -->
